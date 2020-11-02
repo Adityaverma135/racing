@@ -14,7 +14,7 @@ function draw(){
   
   if (keyDown("space") || touches.lenght>1000){
     car.velocityY=-6
-    touches=[]
+    touches=[0]
   }
   
   drawSprites();
